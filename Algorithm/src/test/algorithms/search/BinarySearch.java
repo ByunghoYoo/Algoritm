@@ -25,6 +25,7 @@ public class BinarySearch {
 	 
 	            // 중앙값을 계산한다 
 	            mid = (left + right) / 2;
+	            System.out.println("left : " + left);
 	 
 	            if (key == arr[mid]) {
 	                System.out.println(key + "값의 Array Index 위치 : " + mid);
@@ -44,6 +45,7 @@ public class BinarySearch {
 	                // 데이터는 오른쪽에 위치함으로 left값을 mid에서 1을 더한 값으로 변경
 	                left = mid + 1;
 	            }
+	            
 	        }
 	    }
 }
